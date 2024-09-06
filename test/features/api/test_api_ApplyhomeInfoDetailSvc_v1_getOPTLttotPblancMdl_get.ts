@@ -11,6 +11,6 @@ export async function test_api_ApplyhomeInfoDetailSvc_v1_getOPTLttotPblancMdl_ge
       connection,
       typia.random<IApiApplyhomeInfoDetailSvcV1GetOPTLttotPblancMdl.GetQuery>(),
     );
-  console.log(JSON.stringify(output, null, 2));
+
   typia.assert(output);
 }

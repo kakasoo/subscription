@@ -2,6 +2,7 @@ import { tags } from "typia";
 
 export namespace IApiApplyhomeInfoDetailSvcV1GetRemndrLttotPblancDetail {
   export type GetQuery = {
+    serviceKey: string;
     /**
      * page index
      */
